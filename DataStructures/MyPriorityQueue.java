@@ -188,7 +188,7 @@ public class MyPriorityQueue {
      */
     private void bubbleDown(int index) {
         // Make sure the index is valid and the node is not null before continuing!!
-        boolean indexValid = !(index <= 0 && index > heapArray.size());
+        boolean indexValid = !(index <= 1 && index > heapArray.size());
         if (indexValid) {
             // Get the child node with the highest priority using getNode().
             // (i.e. choose the left node if it exists and it is higher priority than the right node)
