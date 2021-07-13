@@ -164,7 +164,7 @@ public class MyPriorityQueue {
      */
     private void bubbleUp(int index) {
         // Make sure the index is valid and the node is not null before continuing!!
-        boolean indexValid = !(index <= 0);
+        boolean indexValid = !(index <= 1);
         if (indexValid) {
             // Get the parent index
             int parentIndex = index/2;
